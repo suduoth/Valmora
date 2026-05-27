@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/ValmoraDev/', // It should be just the repository name wrapped in slashes
+    base: '/Valmora/', // It should be just the repository name wrapped in slashes
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
